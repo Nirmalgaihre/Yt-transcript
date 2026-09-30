@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#3f3f46" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle Grid Accent -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="500" y1="0" x2="500" y2="630" />
+    <line x1="700" y1="0" x2="700" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1100" y1="0" x2="1100" y2="630" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+  </g>
+
+  <!-- App Card Preview -->
+  <g transform="translate(100, 100)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="190" height="38" rx="8" fill="#27272a" stroke="#3f3f46" stroke-width="1" />
+    <text x="95" y="24" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="middle" letter-spacing="1">DEVELOPER UTILITY</text>
+
+    <!-- Title -->
+    <text x="0" y="110" fill="#f4f4f5" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="700" letter-spacing="-1">
+      YouTube Transcript
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="170" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400">
+      View, search, copy, and export video transcripts in TXT and SRT formats.
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 240)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="160" height="42" rx="6" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+      <text x="80" y="26" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Clickable Timestamps</text>
+
+      <!-- Tag 2 -->
+      <rect x="180" y="0" width="160" height="42" rx="6" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+      <text x="260" y="26" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Instant Search</text>
+
+      <!-- Tag 3 -->
+      <rect x="360" y="0" width="160" height="42" rx="6" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+      <text x="440" y="26" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" text-anchor="middle">TXT &amp; SRT Export</text>
+
+      <!-- Tag 4 -->
+      <rect x="540" y="0" width="160" height="42" rx="6" fill="#18181b" stroke="#27272a" stroke-width="1.5" />
+      <text x="620" y="26" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500" text-anchor="middle">Multi-Language</text>
+    </g>
+
+    <!-- Mock UI snippet -->
+    <g transform="translate(0, 320)">
+      <rect x="0" y="0" width="1000" height="64" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="1.5" />
+      <text x="30" y="38" fill="#71717a" font-family="system-ui, -apple-system, sans-serif" font-size="16">https://www.youtube.com/watch?v=...</text>
+      <rect x="830" y="10" width="155" height="44" rx="6" fill="#f4f4f5" />
+      <text x="907" y="37" fill="#09090b" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Get Transcript</text>
+    </g>
+  </g>
+</svg>

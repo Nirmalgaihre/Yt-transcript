@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Transcript",
+  "description": "Paste a YouTube video link to view, search, copy, and download its transcript with ease.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
